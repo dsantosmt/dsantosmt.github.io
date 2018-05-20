@@ -1,0 +1,27 @@
+ * {
+	font-family: "Open Sans";
+}
+header nav ul li{
+    display: inline;
+    font-size: 20px;
+    padding: 2px 10px;
+}
+header nav ul li a {color: white;}
+header nav{background-color: #037BDF;}
+
+header h1{
+    font-size: 40px
+}
+.subheading {
+    color:green;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+footer {font-size: 10px; background-color: #037BDF; }
+header h1{ font-size: 28px; color: #44657B;  }
+main h2{ font-size: 28px }
+main h3{ font-size: 16px }
+main p { font-size: 14px }
+
+footer{color: white;}
