@@ -31,7 +31,8 @@ nav ul li a {
             padding:0;
             text-decoration: none;
 }
-nav ul li.active a {}
+nav ul li.active a {
+    }
 nav ul li a:hover {
     background-color: #6398F3;
             color: ghostwhite; 
@@ -96,11 +97,12 @@ main picture img {
         width: 240px;
         height: 200px;
         float: right;
-        margin-right: 50px;
+        margin-right: 30px;
     }
     .town-article{
         width: 210px;
         height: 90px;
+        padding: 5px;
         text-align: left;
     }
     .contact{
