@@ -1,18 +1,15 @@
-/* Delete these CSS comments after reading. */
-/* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
+* { box-sizing: border-box;} 
 body {
   font-size: 16px;
   font-family: Open Sans;  
 }
 
 header, nav, main, footer {
-    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
   max-width: 900px;
   margin:auto;
-  text-align: center;/* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  text-align: center;
 }
 
 header {
