@@ -15,6 +15,8 @@ header img {
         padding: 0;
         overflow: hidden;
         background-color: #333;
+        height: 30px;
+
     }
     .navigation  li{
         float: left;
@@ -42,6 +44,7 @@ header img {
         color: white;
         text-align: center;
         text-decoration: none;
+                font-size: 18px;
     }
     .navigation.responsive li a:hover{
         background-color: #037BFF;
@@ -59,29 +62,62 @@ main figure img {
         width: 100%;
         height: 9em;
 }
-    .weather-summary {
-        width: 450px;
+  /*  .weather-summary {
         margin: 0 auto;
         font-size: 14px;
+        border: 1px solid red;
+        position: relative;
     }
     .highlow {
+        padding: 10px;
         margin: 0 auto;
         width: 150px;
     }
     .current {
+        padding: 10px;
         margin-top:-88px;
         float: left;
         width: 150px;
     }
     .conditions{
-        margin-top:-88px;
+        padding: 10px;
         float: right;
         width: 150px;
     }
     .forecast {
+        position: relative;
         display: block;
         width: 450px;
+        margin-top: 40px;
+        float: left;
+    }*/
+    .weather-summary {
+        width: 100px;
+        margin-right: 90px;
+        font-size: 70%
+    }
+    .highlow {
+        margin-top: 30px;
         margin: 0 auto;
+        width: 50px;
+    }
+    .current {
+        margin-top: 0px;
+        margin-left:23px ;
+        float: left;
+        width: 50px;
+    }
+    .conditions{
+        margin-top: -90px;
+        margin-right: 120px;
+        float: right;
+        width: 50px;
+    }
+    .forecast {
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: lightblue;
     }
     .forecast,thead,tbody,th,td,tr{
         border-collapse: collapse;
@@ -90,8 +126,10 @@ main figure img {
         border: 1px solid black;
     }
     article {
+        position: static;
         width: auto;
         height: 280px;
+        margin-top: 100px;
     }
     article img {
         width: 50%;
