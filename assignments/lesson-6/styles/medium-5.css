@@ -2,7 +2,7 @@
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     
-    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    .navigation button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
     
     section.forecast { display: block;}  /* show the 10-day forecast with the medium view and up */
     .hamburger{
@@ -18,14 +18,14 @@
         width: 90%;
         height: 50px;
     }
-    .navigation ul{
+    .navigation {
     list-style: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333;
     }
-    .navigation ul li{
+    .navigation  li{
         float: left;
     }
     main{
