@@ -92,31 +92,29 @@ main figure img {
         float: left;
     }*/
     .weather-summary {
-        width: 100px;
-        margin-right: 90px;
-        font-size: 70%
+        width:100%;
+        height: 120px;
+        font-size: 16px;
+        font-weight: bold;
     }
     .highlow {
-        margin-top: 30px;
-        margin: 0 auto;
-        width: 50px;
+        margin-right: 
+        width: 100px;
     }
     .current {
-        margin-top: 0px;
-        margin-left:23px ;
-        float: left;
-        width: 50px;
+        margin-left: 200px;
+        margin-top: -90px;
+    }
+    .current picture img{
+        width: 200%;
     }
     .conditions{
-        margin-top: -90px;
-        margin-right: 120px;
-        float: right;
-        width: 50px;
+        width: 200px;
     }
     .forecast {
         width: 400px;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 40px;
         background-color: lightblue;
     }
     .forecast,thead,tbody,th,td,tr{
@@ -128,8 +126,9 @@ main figure img {
     article {
         position: static;
         width: auto;
-        height: 280px;
-        margin-top: 100px;
+        height: 240px;
+        margin: 0 auto;
+        text-align: justify;
     }
     article img {
         width: 50%;
