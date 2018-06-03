@@ -25,8 +25,14 @@
         overflow: hidden;
         background-color: #333;
     }
-    .navigation  li{
+    .navigation li{
+        margin:auto;
         float: left;
+        display: block;
+        width: 100px;
+    }
+    .navigation li a {
+        font-size: 10px;
     }
     main{
         margin-top: 20px;
