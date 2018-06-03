@@ -31,3 +31,4 @@ function myFunction() {
     var k = [d.getFullYear()];
     document.getElementById("currentdate").innerHTML = n + ", " + " " + l + " " + m + " " +  " " + k;
 }
+myFunction();
