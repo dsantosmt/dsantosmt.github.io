@@ -118,6 +118,8 @@ article img {
     text-align: justify;
     margin: 0;
     height: 200px;
+    padding: 10px;
+    font-size: 14px;
 }
 .contact{
     background-color: #037BFF;
