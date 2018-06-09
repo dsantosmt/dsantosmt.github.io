@@ -1,0 +1,129 @@
+@media only screen and (min-width: 37.5em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    .navigation button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    section.forecast { display: block;}  /* show the 10-day forecast with the medium view and up */
+    .hamburger{
+        display: none;
+    }
+    header, nav, main, footer{
+        width: 600px;
+    }
+    header{
+        height: 60px;
+    }
+    header img{
+        width: 90%;
+        height: 50px;
+    }
+    .navigation {
+    list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    .navigation li{
+        margin:auto;
+        float: left;
+        display: block;
+        width: 100px;
+    }
+    .navigation li a {
+        font-size: 14px;
+    }
+    main{
+        margin-top: 20px;
+    }
+main figure img { 
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        width: 320px;
+        height: 9em;    
+}
+main picture img {
+        width:40%;
+    }
+    main figure img {
+        float: left;
+    }
+    .weather-summary {
+        width: 100px;
+        margin-right: 90px;
+        font-size: 70%
+    }
+    .highlow {
+        margin-top: 30px;
+        margin: 0 auto;
+        width: 50px;
+    }
+    .current {
+        margin-top: 0px;
+        margin-left:23px ;
+        float: left;
+        width: 50px;
+    }
+    .conditions{
+        margin-top: -90px;
+        margin-right: 120px;
+        float: right;
+        width: 50px;
+    }
+    .forecast {
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: lightblue;
+    }
+    .forecast,thead,tbody,th,td,tr{
+        border-collapse: collapse;
+    }
+    thead,tbody,th,td,tr{
+        border: 1px solid black;
+        background-color: lightslategray;
+    }
+    article {
+        width: 600px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    article h3{
+        text-align: left;
+        color:darkslateblue;
+        border-bottom: 1px solid black;
+        padding: 3px;
+    }
+    article img {
+        width: 240px;
+        height: 200px;
+        float: right;
+        margin-right: 30px;
+    }
+    .town-article{
+        width: 320px;
+        height: 280px;
+        padding: 15px;
+        text-align: left;
+        overflow: hidden;
+    }
+    .contact{
+        text-align: center;
+        height: 50px;
+    }
+.gallery{
+        grid-template-columns: 300px 300px;
+        grid-template-rows: auto;
+     }
+    div{
+        box-shadow: 2px 2px gray;
+    }
+    div figure img{
+        margin: auto;
+        width: 100%;
+        
+    }
+
+  }
