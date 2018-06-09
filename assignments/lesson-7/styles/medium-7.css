@@ -8,9 +8,23 @@
     .hamburger{
         display: none;
     }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation li{
+        display: flex;
+        width: auto;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
     header, nav, main, footer{
         width: 600px;
     }
+        /*
     header{
         height: 60px;
     }
@@ -19,16 +33,16 @@
         height: 50px;
     }
     .navigation {
-    list-style: none;
+        list-style: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333;
     }
     .navigation li{
+        display: flex;
+        flex-direction: row;
         margin:auto;
-        float: left;
-        display: block;
         width: 100px;
     }
     .navigation li a {
@@ -36,13 +50,12 @@
     }
     main{
         margin-top: 20px;
-    }
+    }*/
 main figure img { 
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
+        display: flex;
+        margin: 10px;
         width: 320px;
-        height: 9em;    
+        height: 12em;
 }
 main picture img {
         width:40%;
@@ -50,32 +63,34 @@ main picture img {
     main figure img {
         float: left;
     }
+    main h2{
+        
+        display: flex;
+        flex-flow: row-reverse;
+        margin-top: -200px;
+        margin-right: 70px;
+    }
     .weather-summary {
-        width: 100px;
-        margin-right: 90px;
-        font-size: 70%
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        font-size: 80%;
+        margin-right: 20px;
     }
     .highlow {
-        margin-top: 30px;
-        margin: 0 auto;
-        width: 50px;
+
     }
     .current {
-        margin-top: 0px;
-        margin-left:23px ;
-        float: left;
-        width: 50px;
+
     }
     .conditions{
-        margin-top: -90px;
-        margin-right: 120px;
-        float: right;
-        width: 50px;
+
     }
     .forecast {
+        display: flex;
+        flex-direction: column;
         width: 400px;
-        margin: 0 auto;
-        margin-top: 50px;
+        align-items: center;
         background-color: lightblue;
     }
     .forecast,thead,tbody,th,td,tr{
