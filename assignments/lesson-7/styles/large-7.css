@@ -147,4 +147,8 @@ main figure img {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
     }
+    div figure img{
+    width: 90%;
+    margin: 15px;
+    }
 }

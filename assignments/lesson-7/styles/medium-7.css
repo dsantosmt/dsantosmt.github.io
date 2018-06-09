@@ -118,12 +118,11 @@ main picture img {
         grid-template-rows: auto;
      }
     div{
-        box-shadow: 2px 2px gray;
+        box-shadow: 3px 3px gray;
     }
     div figure img{
-        margin: auto;
-        width: 100%;
-        
+    width: 90%;
+    margin: 15px;
     }
 
   }
