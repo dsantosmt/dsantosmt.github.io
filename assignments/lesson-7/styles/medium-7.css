@@ -107,13 +107,13 @@ main picture img {
         padding: 3px;
     }
     article img {
-        width: 300px;
+        width: 250px;
         height: 200px;
         float: right;
         margin: 10px;
     }
     .town-article{
-        width: 280px;
+        width: 250px;
         height: auto;
         padding: 5px;
         text-align: justify;
