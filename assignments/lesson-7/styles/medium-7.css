@@ -95,7 +95,6 @@ main picture img {
         background-color: lightslategray;
     }
     article {
-        display: flex
         width: 90%;
         height: auto;
         background-color: white;
@@ -109,6 +108,7 @@ main picture img {
     }
     article img {
         width: 300px;
+        height: 200px;
         float: right;
         margin: 10px;
     }

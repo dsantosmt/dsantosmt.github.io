@@ -1,3 +1,4 @@
+
 var HighTemp = parseInt(document.getElementById("high-temp").innerHTML);
 var LowTemp = parseInt(document.getElementById("low-temp").innerHTML);
 var s = parseInt(document.getElementById("wind-speed").innerHTML);
