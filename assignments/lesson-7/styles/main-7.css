@@ -119,6 +119,8 @@ article img {
     height: 200px;
     padding: 10px;
     font-size: 14px;
+    overflow: hidden;
+    margin-bottom: 5px;
 }
 .contact{
     background-color: #037BFF;
