@@ -1,0 +1,143 @@
+@media only screen and (min-width: 64em ) {
+   header, nav, main, footer{
+        width: 1000px;
+    }
+header img {
+        margin: auto;
+        width: 50%;
+    }
+    .hamburger{
+        display: none;
+    }
+    .navigation{
+    list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        height: 30px;
+
+    }
+    .navigation  li{
+        float: left;
+        width: 100%;
+    }
+ /*   .navigation{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #037BFF;
+    display: contents;
+    height: 100px;
+    }*/
+    .navigation li{
+        float: left;
+        width: 146px;
+        display: block;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+    .navigation li a{
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+                font-size: 18px;
+    }
+    .navigation.responsive li a:hover{
+        background-color: #037BFF;
+    
+    }
+    main h2{
+        margin: auto;
+    }
+main figure { 
+        margin: 0 auto; 
+        width:100%;
+    }
+main figure img { 
+        margin:auto;
+        width: 100%;
+        height: 9em;
+}
+    .current{
+        border: 1px solid black;
+    }
+  /*  .weather-summary {
+        margin: 0 auto;
+        font-size: 14px;
+        border: 1px solid red;
+        position: relative;
+    }
+    .highlow {
+        padding: 10px;
+        margin: 0 auto;
+        width: 150px;
+    }
+    .current {
+        padding: 10px;
+        margin-top:-88px;
+        float: left;
+        width: 150px;
+    }
+    .conditions{
+        padding: 10px;
+        float: right;
+        width: 150px;
+    }
+    .forecast {
+        position: relative;
+        display: block;
+        width: 450px;
+        margin-top: 40px;
+        float: left;
+    }*/
+    .weather-summary {
+        width: 100%;
+        font-weight: bold;
+    }
+    .current{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .forecast {
+        width: 450px;
+        background-color: #333;
+        margin-left: 25%;
+        color: yellowgreen
+    }
+    .forecast,thead,tbody,th,td,tr{
+        border-collapse: collapse;
+    }
+    .forecast,thead,tbody,th,td,tr{
+        border: 1px solid black;
+    }
+    article {
+        margin: 10px;
+    }
+    article img {
+        width: 50%;
+    }
+    .town-article{
+        width: 45%;
+        margin: 20px;
+        font-size: 16px;
+    }
+    footer{
+        background-color:#333;
+    }
+ .gallery{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+    div figure img{
+    width: 90%;
+    margin: 15px;
+    }
+}
