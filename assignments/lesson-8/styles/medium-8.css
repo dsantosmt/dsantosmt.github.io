@@ -23,36 +23,10 @@
         background-color: #eee;
     }
 
-    header, nav, main, footer{
+    header, nav, main, footer, .getinfo{
         width: 600px;
     }
-        /*
-    header{
-        height: 60px;
-    }
-    header img{
-        width: 90%;
-        height: 50px;
-    }
-    .navigation {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-    .navigation li{
-        display: flex;
-        flex-direction: row;
-        margin:auto;
-        width: 100px;
-    }
-    .navigation li a {
-        font-size: 14px;
-    }
-    main{
-        margin-top: 20px;
-    }*/
+
 main figure img { 
         display: flex;
         margin: 10px;
@@ -137,5 +111,19 @@ main picture img {
     body{
         background-color: darkblue;
     }
-
+/*--Contatc page---*/
+    .getinfo fieldset label{
+        text-align: left;
+        }
+    .field2{
+        width: 100%;
+        display: block;
+    }
+    .field2 label{
+        text-align: center;
+    }
+    .danger {
+        width: 2rem;
+        text-align: center;
+    }
   }

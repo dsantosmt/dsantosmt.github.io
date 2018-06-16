@@ -1,5 +1,5 @@
 @media only screen and (min-width: 64em ) {
-   header, nav, main, footer{
+   header, nav, main, footer, .getinfo{
         width: 1000px;
     }
 header img {
@@ -65,35 +65,7 @@ main figure img {
     .current{
         border: 1px solid black;
     }
-  /*  .weather-summary {
-        margin: 0 auto;
-        font-size: 14px;
-        border: 1px solid red;
-        position: relative;
-    }
-    .highlow {
-        padding: 10px;
-        margin: 0 auto;
-        width: 150px;
-    }
-    .current {
-        padding: 10px;
-        margin-top:-88px;
-        float: left;
-        width: 150px;
-    }
-    .conditions{
-        padding: 10px;
-        float: right;
-        width: 150px;
-    }
-    .forecast {
-        position: relative;
-        display: block;
-        width: 450px;
-        margin-top: 40px;
-        float: left;
-    }*/
+
     .weather-summary {
         width: 100%;
         font-weight: bold;
@@ -139,5 +111,8 @@ main figure img {
     div figure img{
     width: 90%;
     margin: 15px;
+    }
+    .getinfo{
+        
     }
 }
