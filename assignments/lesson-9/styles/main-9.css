@@ -300,3 +300,7 @@ div figcaption{
     text-align: left;
     font-size: .8rem;
 }
+p .desc{
+    color: red;
+    text-transform: capitalize;
+}
