@@ -1,0 +1,134 @@
+@media only screen and (min-width: 37.5em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+    .navigation button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+    section.forecast { display: block;}  /* show the 10-day forecast with the medium view and up */
+    .hamburger{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation li{
+        display: flex;
+        width: auto;
+        margin: 2px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        background-color: #eee;
+    }
+
+    header, nav, main, footer, .getinfo, .warning{
+        width: 600px;
+    }
+    .warning p{
+        padding: 2rem;
+        width: 60%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+main figure img { 
+        display: flex;
+        margin: 10px;
+        width: 320px;
+        height: 12em;
+}
+main picture img {
+        width:40%;
+    }
+    main figure img {
+        float: left;
+    }
+    main h2{
+        
+        display: flex;
+        flex-flow: row-reverse;
+        margin-top: -200px;
+        margin-right: 70px;
+    }
+    .weather-summary {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        font-size: 80%;
+        margin-right: 20px;
+    }
+    .forecast {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        align-items: center;
+        background-color: lightblue;
+        border-radius: 4px;
+    }
+    .forecast,thead,tbody,th,td,tr{
+        border-collapse: collapse;
+    }
+    thead,tbody,th,td,tr{
+        border: 1px solid black;
+        background-color: lightslategray;
+    }
+    article {
+        width: 90%;
+        height: auto;
+        background-color: white;
+    }
+    article h3{
+        text-align: left;
+        color:darkslateblue;
+        border-bottom: 1px solid black;
+        
+        padding: 3px;
+    }
+    article img {
+        width: 250px;
+        height: 200px;
+        float: right;
+        margin: 10px;
+    }
+    .town-article{
+        width: 250px;
+        height: auto;
+        padding: 5px;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .contact{
+        text-align: center;
+        height: 50px;
+    }
+.gallery{
+        grid-template-columns: 300px 300px;
+        grid-template-rows: auto;
+     }
+    div{
+        box-shadow: 3px 3px gray;
+    }
+    div figure img{
+    width: 90%;
+    margin: 15px;
+    }
+    body{
+        background-color: darkblue;
+    }
+/*--Contatc page---*/
+    .getinfo fieldset label{
+        text-align: left;
+        }
+    .field2{
+        width: 100%;
+        display: block;
+    }
+    .field2 label{
+        text-align: center;
+    }
+    .danger {
+        width: 2rem;
+        text-align: center;
+    }
+  }
