@@ -84,13 +84,15 @@
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
+        var myPara4 = document.createElement('p');
         var myList = document.createElement('ul');
 
         myH2.textContent = heroes[i].name;
         myPara.textContent = heroes[i].motto;
         myPara1.textContent = 'Current Population: ' + heroes[i].currentPopulation;
         myPara2.textContent = 'Year Founded: ' + heroes[i].yearFounded;
-        myPara3.textContent = 'Events: ';
+        myPara3.textContent = 'Annual Rainfal: ' + heroes[i].averageRainfall;
+        myPara4.textContent = 'Events: ';
 
         var superPowers = heroes[i].events;
         for(var j = 0; j < superPowers.length; j++) {
@@ -105,6 +107,7 @@
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
+        myArticle.appendChild(myPara4);
         myArticle.appendChild(myList);
 
         section.appendChild(myArticle);

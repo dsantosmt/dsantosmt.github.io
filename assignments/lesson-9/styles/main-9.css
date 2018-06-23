@@ -273,6 +273,11 @@ div figcaption{
 .jsection article:nth-child(4) h2{
     color: blueviolet;
 }
+.jsection article p:nth-child(6){
+    color: red;
+    text-align: left;
+    font-weight: bold;
+}
 .jsection article p:nth-child(2){
     font-size: 1rem;
     font-style: italic;
