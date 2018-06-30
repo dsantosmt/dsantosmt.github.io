@@ -9,7 +9,7 @@ header img {
         margin: 0 auto;
         width: 90%;
         padding: .5rem;
-        height: 120px;
+        height: 110px;
     }
     .hamburger{
         display: none;
@@ -142,11 +142,11 @@ main figure img {
         display: flex;
         flex-direction: row;
         width: auto;
-        align-items: center;
         padding: .5rem;
         
     }
     #index-img img{
         width: 20%;
+        margin: 0 auto;
     }
 }
