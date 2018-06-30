@@ -1,5 +1,5 @@
 @media only screen and (min-width: 64em ) {
-   header,  main, .getinfo, .warning{
+   header, .getinfo, .warning{
         width: 1000px;
     }
     .jsection{
@@ -33,45 +33,59 @@ header img {
     }
     main h2{
         margin: auto;
+        font-size: 3rem;
+        text-transform: uppercase;
     }
     main{
-        width: 900px;
+        width: auto;
     }
 main figure { 
         margin: 0 auto; 
-        width:98%;
         padding: 1rem;
     }
 main figure img { 
         margin:auto;
         width: 100%;
-        height: 9em;
 }
-    .current{
-        border: 1px solid black;
-    }
-
-    .weather-summary {
-        width: 100%;
-        font-weight: bold;
-    }
-    .current{
+    .weather-summary{
         display: flex;
         flex-direction: column;
-        width: 50%;
-        margin-left: 25%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1rem;
+        width: 98%;
+        font-size: 1rem;
+        
     }
-    .forecast {
-        width: 450px;
-        background-color: #333;
-        margin-left: 25%;
-        color: yellowgreen
+    .weather-summary .current{
+        border: 5px solid lightblue;
+        border-radius: 6px;
+        width: 30%;
+        margin: 0 auto;
+        border: .5rem solid #dddd;
+        padding: 1rem;
+        border-radius: 2px;
     }
-    .forecast,thead,tbody,th,td,tr{
-        border-collapse: collapse;
+    .current p{
+        text-transform: capitalize;
+        font-size: 2rem;
     }
-    .forecast,thead,tbody,th,td,tr{
-        border: 1px solid black;
+    .current picture img{
+        width: 100px;
+    }
+    .forecast{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: .5rem;
+        width: 98%;
+        background-color: white;
+    }
+    .forecast table{
+        margin: 0 auto;
+        border: .5rem solid #dddd;
+        padding: 1rem;
+        border-radius: 2px;
     }
     article {
         margin: 10px;

@@ -104,6 +104,9 @@ main picture img {
         width: 100%;
         margin: 0 auto;
     }
+    .current p{
+        text-transform: capitalize;
+    }
 .forecast{
     display: none;
 }
@@ -136,7 +139,7 @@ article img {
 }
 /*--Galley-->*/
 .gallery{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
     display: grid;
     text-align: justify;
@@ -145,20 +148,19 @@ article img {
     grid-template-columns: repeat(1, 1fr);
     background-color: #eee;
 }
-div{
+.gallery div{
     margin: 10px;
     background-color: white;
 }
 
-div:hover{
+.gallery div:hover{
     box-shadow:  0 0 3px 3px lightgray;
     border-radius: 3px 3px;
 }
 div figure img{
-    max-width: 80%;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    max-width: 100%;
+    margin: 0 auto;
+
   /*  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 div figcaption{
