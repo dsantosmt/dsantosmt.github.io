@@ -85,6 +85,17 @@ main {
 }
 main h2 {
     color: orange;
+    padding: .2rem;
+}
+.green{
+    color: green;
+    padding: .2rem;
+    text-align: center;
+}
+.spring{
+    color: slateblue;
+    padding: .2rem;
+    text-align: center;
 }
 main figure { 
     margin: 0 auto; 
@@ -239,10 +250,8 @@ div figcaption{
     font-weight: bold;
     border-radius: 4px;
     width: 50%;
-    color: whitesmoke;
-    
+    color: whitesmoke; 
 }
-
 .bcontact {
     background: #f0f0f0;
 }
