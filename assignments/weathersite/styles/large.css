@@ -1,12 +1,15 @@
 @media only screen and (min-width: 64em ) {
-   header,  main, .getinfo, .warning, .jsection{
+   header,  main, .getinfo, .warning{
         width: 1000px;
+    }
+    .jsection{
+        width: auto;
     }
 header img {
         margin: 0 auto;
         width: 90%;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
+        padding: .5rem;
+        height: 120px;
     }
     .hamburger{
         display: none;
@@ -92,5 +95,58 @@ main figure img {
         width: 90%;
         margin: 15px;
     }
+    /*JSECTION Index Page*/
+.jsection{
+    background-color: #ddd;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.jsection article{
+    background-color: white;
+    width: 30%;
+    padding: .5rem;
+    border-radius: 4px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+}
 
+.jsection article p:nth-child(2){
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #aaa;
+    width: 70%;
+    margin: 0 auto;
+}
+.jsection article h2{
+    border-bottom: 2px solid #ccc;
+    font-size: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.jsection article p{
+    padding: 1rem;
+
+}
+.jsection article ul{
+    list-style: none;
+    text-align: left;
+    font-size: .8rem;
+}
+   #index-img{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        align-items: center;
+        padding: .5rem;
+        
+    }
+    #index-img img{
+        width: 20%;
+    }
 }

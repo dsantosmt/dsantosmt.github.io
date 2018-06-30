@@ -74,29 +74,30 @@ main picture img {
         background-color: lightslategray;
     }
     article {
-        width: 90%;
+        width: 100%;
         height: auto;
         background-color: white;
+        margin: 0 auto;
     }
     article h3{
         text-align: left;
         color:darkslateblue;
         border-bottom: 1px solid black;
-        
-        padding: 3px;
+        padding: 2rem;
     }
     article img {
-        width: 250px;
+        width: 50%;
         height: 200px;
         float: right;
         margin: 10px;
     }
     .town-article{
-        width: 250px;
+        width: 45%;
         height: auto;
         padding: 5px;
         text-align: justify;
         font-size: 14px;
+        padding: 1rem;
     }
     .contact{
         text-align: center;
@@ -106,9 +107,7 @@ main picture img {
         grid-template-columns: 300px 300px;
         grid-template-rows: auto;
      }
-    div{
-        box-shadow: 3px 3px gray;
-    }
+
     div figure img{
     width: 90%;
     margin: 15px;
@@ -129,6 +128,18 @@ main picture img {
         width: 2rem;
         text-align: center;
     }
-
+    #index-img{
+        display: flex;
+        flex-direction: row;
+        background-color: ;
+        width: 600px;
+        margin: 0 auto;
+    }
+    #index-img img {
+        width: 12.5rem;
+        padding: .5rem;
+        height: 150px;
+        border-radius: 5px;
+    }
 
 }

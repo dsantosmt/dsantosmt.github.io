@@ -8,12 +8,15 @@ footer, nav {
       margin: 0 auto;
       text-align: center;
 }
-header, main, .jsection {
+header, main {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
-
+.jsection{
+  margin: 0 auto;
+  text-align: center;
+}
 header{
         display: flex;
         align-items: center;
@@ -143,25 +146,20 @@ article img {
     background-color: #eee;
 }
 div{
-    border-bottom: 1px solid #333;
     margin: 10px;
     background-color: white;
-    box-shadow: 2px 3px #888888;
-    border-radius: 5px;
 }
-div figure img:hover {
-    box-shadow: 2px 2px #037bff;  
-}
+
 div:hover{
-    box-shadow: 2px 3px #037bff;
-    box-shadow:  0 0 3px 3px #037bff;
+    box-shadow:  0 0 3px 3px lightgray;
+    border-radius: 3px 3px;
 }
 div figure img{
-    width: 80%;
+    max-width: 80%;
     margin-top: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 div figcaption{
     margin: 5px;
@@ -305,4 +303,7 @@ div figcaption{
 p .desc{
     color: red;
     text-transform: capitalize;
+}
+#index-img{
+    display: none;
 }
