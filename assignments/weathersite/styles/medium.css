@@ -18,8 +18,8 @@
         margin: 0 auto;
     }
     .navigation li.active a{
-        background-color: #6398F3;
-        color: #333;
+        background-color: #FFFF00;
+        color: darkslategrey;
         font-weight: bold;
     }
     main{
