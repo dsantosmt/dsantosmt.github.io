@@ -20,6 +20,7 @@
     .navigation li.active a{
         background-color: #6398F3;
         color: #333;
+        font-weight: bold;
     }
     main{
         display: flex;
