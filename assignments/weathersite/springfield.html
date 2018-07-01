@@ -31,7 +31,11 @@
     <figure>
         <img src="images/spring-800.jpg"
              srcset="images/springfield.jpg.jpg 150w, images/springfield.jpg.jpg 400w,
-             images/springfield.jpg.jpg 600w">
+             images/springfield.jpg.jpg 600w"
+             sizes="(max-width:320px) 280px,
+                    (max-width:600px) 580px,
+                    800px"
+             alt="Greenville Picture">>
     </figure>
     <h2 class="spring">Springfield</h2>
     <section class="weather-summary">
@@ -43,7 +47,7 @@
       <div class="current">
          <p><span id="desc"></span></p> 
         <picture>
-            <img id="icon">
+            <img id="icon" src="images/sun_PNG13449.png" alt="Ilustractive Image">
         </picture>
       </div>   
       <div class="conditions">
@@ -98,11 +102,11 @@
     
   <footer>
     <section class="contact">
-     <h6>   Data Info by  OpenWeatherMap.org |
+     <h5>   Data Info by  OpenWeatherMap.org |
       Avoid Thunderstorm 143 Ave Franklin, MU 83454
-         (978) 9999.9999 dsantosmt@email.com</h6>
+         (978) 9999.9999 dsantosmt@email.com</h5>
     </section>
-      <section class="footer-bar"><h6>&copy;2018 | All Rights Reserved | Avoid ThunderStorm | <span id="currentdate">May, 25 2018</span></h6>
+      <section class="footer-bar"><h5>&copy;2018 | All Rights Reserved | Avoid ThunderStorm | <span id="currentdate">May, 25 2018</span></h5>
     </section>
   </footer>
 <script src="scripts/hamburger.js"></script>

@@ -31,7 +31,7 @@ header img {
 .hamburger{
     display: flex;
     position: absolute;
-    right: .5rem;
+    right: 0.5em;
     
 }
 nav {
@@ -289,7 +289,7 @@ div figcaption{
     font-weight: bold;
 }
 .jsection article p:nth-child(2){
-    font-size: 1rem;
+    font-size: 1em;
     font-style: italic;
     font-weight: bold;
     color: #aaa;
@@ -298,18 +298,18 @@ div figcaption{
 }
 .jsection article h2{
     border-bottom: 2px solid #ccc;
-    font-size: 2rem;
+    font-size: 2em;
     width: 80%;
     margin: 0 auto;
 }
 .jsection article p{
-    padding: 1rem;
+    padding: 1em;
 
 }
 .jsection article ul{
     list-style: none;
     text-align: left;
-    font-size: .8rem;
+    font-size: .8em;
 }
 p .desc{
     color: red;

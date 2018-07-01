@@ -62,7 +62,7 @@ main figure img {
         border-radius: 6px;
         width: 30%;
         margin: 0 auto;
-        border: .5rem solid #dddd;
+        border: .5rem solid #ddd;
         padding: 1rem;
         border-radius: 2px;
     }
@@ -83,7 +83,7 @@ main figure img {
     }
     .forecast table{
         margin: 0 auto;
-        border: .5rem solid #dddd;
+        border: .5rem solid #ddd;
         padding: 1rem;
         border-radius: 2px;
     }
