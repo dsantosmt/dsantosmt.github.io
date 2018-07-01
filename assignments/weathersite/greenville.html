@@ -31,9 +31,13 @@
   </nav>
   <main>
     <figure>
-        <img src="images/bright-day-environment-356977.jpg"
-             srcset="images/bright-day-environment-356977.jpg 150w, images/bright-day-environment-356977.jpg 400w,
-             images/bright-day-environment-356977.jpg 600w,">
+        <img srcset="images/bright-day-environment-356977.jpg 150w, images/bright-day-environment-356977.jpg 400w,
+             images/bright-day-environment-356977.jpg 600w"
+             sizes="(max-width:320px) 280px,
+                    (max-width:600px) 580px,
+                    800px"
+             src="images/bright-day-environment-356977.jpg"
+             alt="Greenville Picture">
     </figure>
     <h2 class="green">Greenville</h2>
     <section class="weather-summary">
@@ -45,7 +49,7 @@
       <div class="current">
          <p><span id="desc"></span></p> 
         <picture>
-            <img id="icon">
+            <img id="icon" src="images/sun_PNG13449.png" alt="Weather Icon">
         </picture>
       </div>   
       <div class="conditions">
@@ -101,11 +105,11 @@
     
   <footer>
     <section class="contact">
-        Data Info by  OpenWeatherMap.org |
+      <h6>  Data Info by  OpenWeatherMap.org |
       Avoid Thunderstorm 143 Ave Franklin, MU 83454
-      (978) 9999.9999 dsantosmt@email.com
+          (978) 9999.9999 dsantosmt@email.com</h6>
     </section>
-    <section class="footer-bar">&copy;2018 | All Rights Reserved | Avoid ThunderStorm | <span id="currentdate">May, 25 2018</span>
+      <section class="footer-bar"><h6>&copy;2018 | All Rights Reserved | Avoid ThunderStorm | <span id="currentdate">May, 25 2018</span></h6>
     </section>
   </footer>
 <script src="scripts/hamburger.js"></script>

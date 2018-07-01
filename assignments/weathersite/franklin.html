@@ -10,15 +10,12 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-
 </head>
 <body>
-
   <header>
       <img src="images/logo1.PNG" alt="Logo">
       	<button class="hamburger" onclick="toggleHam()">&#9776;</button>
   </header>
-
   <nav>
     <ul class="navigation">
     	<li><a href="index.html">Home</a></li>
@@ -31,9 +28,13 @@
   </nav>
   <main>
     <figure>
-        <img src="images/franklin-800.jpg"
-             srcset="images/franklin-small.jpg 150w, images/franklin-medium.jpg 400w,
-             images/franklin-large.jpg 600w,">
+        <img srcset="images/franklin-small.jpg 150w, images/franklin-medium.jpg 400w,
+             images/franklin-large.jpg 600w"
+             sizes="(max-width:320px) 280px,
+                    (max-width:600px) 580px,
+                    800px"
+             src="images/franklin-800.jpg"
+             alt="Sun from Franklin">
     </figure>
     <h2>Franklin</h2>
     <section class="weather-summary">
@@ -45,7 +46,7 @@
       <div class="current">
          <p><span id="desc"></span></p> 
         <picture>
-            <img id="icon">
+            <img id="icon" src="images/sun_PNG13449.png" alt="Weather Icon">
         </picture>
       </div>   
       <div class="conditions">
@@ -101,11 +102,11 @@
     
   <footer>
     <section class="contact">
-        Data Info by  OpenWeatherMap.org |
+      <h6>  Data Info by  OpenWeatherMap.org |
       Avoid Thunderstorm 143 Ave Franklin, MU 83454
-      (978) 9999.9999 dsantosmt@email.com
+          (978) 9999.9999 dsantosmt@email.com</h6>
     </section>
-    <section class="footer-bar">&copy;2018 | All Rights Reserved | Avoid ThunderStorm | <span id="currentdate">May, 25 2018</span>
+      <section class="footer-bar"><h6>&copy;2018 | All Rights Reserved | Avoid ThunderStorm | <span id="currentdate">May, 25 2018</span></h6>
     </section>
   </footer>
 <script src="scripts/hamburger.js"></script>
