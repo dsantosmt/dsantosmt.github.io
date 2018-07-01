@@ -19,7 +19,7 @@
     }
     .navigation li.active a{
         background-color: #6398F3;
-        color: #ddd;
+        color: #333;
     }
     main{
         display: flex;
