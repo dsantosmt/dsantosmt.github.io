@@ -6,17 +6,17 @@ nav{
 nav ul{
     margin: 0 auto;
     padding: .5em;
-    width: 900px;
+    width: 1200px;
 }
 nav ul li{
     display: inline-block;
-    width: 140px;
+    width: 200px;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
     padding: .5em;
     margin: 0 auto;
     border: thin solid gray;
-    border-radius: 15px 4px;
+    border-radius: 25px 4px;
 }
 /*--NAV COLOR--*/
 nav ul li:nth-child(1){
@@ -43,8 +43,38 @@ nav ul li a{
 }
 nav ul li:hover{
     background-color: red;
+    box-shadow: 4px 4px 4px gray;
+    text-decoration: underline;
 }
-nav ul li a:hover{
+/*nav ul li a:hover{
     color:whitesmoke;
-}
+}*/
+    main{
+        width: 900px;
+        box-shadow: 4px 4px gray;
+    }
+    main article{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    main article p{
+        font-family: cargo;
+        font-size: 20px;
+        text-align: left;
+    }
+    main figure{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    main figure img{
+        box-shadow: -.1px 2px 2px 2px black;
+    }
+    .buttons{
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+        padding: .5em;
+    }
+
+
 }

@@ -9,16 +9,17 @@ header{
     .footer img{
     width: 1500px;
 }
-    main section:nth-child(2){
+    .event-link{
         height: auto;
         padding-bottom: 1em;
     }
-    main section img{
-        display: block;
+
+    .event-link img{
         padding: 1em;
+        display: block;
         margin: 0 auto;
     }
-    main section li{
+    .event-link li{
         background-color: #00a1f1;
         padding: .5em;
         width: 500px;
@@ -27,7 +28,10 @@ header{
         margin: 0 auto 10px;
         text-align: center;
     }
-    main section li a{
+    .event-link li:hover{
+        box-shadow: 4px 4px 4px gray;
+    }
+    .event-link li a{
         text-decoration: none;
         font-size: 30px;
         font-weight: bold;

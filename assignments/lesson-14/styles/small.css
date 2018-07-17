@@ -1,14 +1,13 @@
 * {
 font-family: Gaegu;
 /*background-image: url(../img-project/background-img.jpg);*/
-
 }
 body{
     max-width: 1500px;
     margin: 0 auto;
     background-color: lightgray
 }
-header, nav, main, footer{
+header, footer{
     width: 1500px;
 }
 .header h1 {
@@ -28,11 +27,13 @@ header, nav, main, footer{
 .header h1 span:nth-child(3), span:nth-child(5){
     color: #ff9900;
 }
-
+main{
+    background-color: #FFFFFF;
+}
 .footer{
-    font-family: Cardo;
     font-size: 2em;
     text-align: center;
+    position: relative;
 }
 .footer p{
     margin: 0 auto;

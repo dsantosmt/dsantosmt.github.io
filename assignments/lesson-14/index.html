@@ -30,18 +30,21 @@
     <main>
         <h2>Home PAGE</h2>
             <figure>
-                <img src="images/biking400.jpeg" alt="Action Biking">
-                <img src="images/action400.jpeg" alt="Action Trail">
-                <img src="images/mountain400.jpeg" alt="Climbing on bike">
+                <img class="mySlides" src="images/action1000x500.jpeg" alt="Action Biking">
+                <img class="mySlides" src="images/kay1000x500.jpeg" alt="Action Trail">
+                <img class="mySlides" src="images/ana1000x500.jpeg" alt="Biking on the Ice">
+                <div class="buttons"><button onclick="plusDivs(-1)">❮ Prev</button>
+                    <button onclick="plusDivs(1)">Next ❯</button></div>
             </figure>
-        <section>
-
-        </section>
+        <article>
+            <h2>Some Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus libero et elit vulputate vulputate. Nulla at dapibus nibh. Phasellus interdum quis erat sed fringilla. Suspendisse a metus eget lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus libero et elit vulputate vulputate. Nulla at dapibus nibh. Phasellus interdum quis erat sed fringilla. Suspendisse a metus eget lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus libero et elit vulputate vulputate. Nulla at dapibus nibh. Phasellus interdum quis erat sed fringilla. Suspendisse a metus eget lorem.</p>
+        </article>
         
-        <section>
+        <section class="event-link">
         <p></p>
-        <li><a href=#>Find Yourself your lonely place!</a></li>
-        <img src="images/alex400.jpeg">
+        <li><a href=adventure.html>Find Yourself your lonely place!</a></li>
+            <img src="images/alex400.jpeg">
         <li><a href=#>Contact us</a></li>
         </section>
     </main>
@@ -50,5 +53,33 @@
     <p>3950 Valley Commons Drive Bozeman, MT</p>
     <img src="images/footer1200x.png">
     </footer>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
 </body>
 </html>
