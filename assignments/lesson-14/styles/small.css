@@ -11,6 +11,41 @@ body{
 header, nav, main, footer{
     width: 1200px;
 }
+nav{
+
+}
+nav ul{
+    width: 1000px;
+    width: inherit;
+}
+nav ul li{
+    display: inline;
+    padding: 1em;
+}
+/*--NAV COLOR--*/
+nav ul li:nth-child(1){
+    background-color: #FFFFFF;
+}
+nav ul li:nth-child(2){
+    background-color: #00a1f1;
+}
+nav ul li:nth-child(3){
+    background-color: #ff9900;
+}
+nav ul li:nth-child(4){
+    background-color: #66767f;
+}
+nav ul li:nth-child(5){
+    background-color: #ffcc00;
+}
+/*END*/
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: red;
+    color: whitesmoke;
+}
 header{
     background-image: url("../img-project/header-img.jpg");
 }
@@ -32,8 +67,10 @@ header{
     color: #66757F;
 }
 main figure{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-row: auto;
+    grid-gap: 1em;
+    padding: 1em;
     background-color: #ffffff;
 }
 .footer{
