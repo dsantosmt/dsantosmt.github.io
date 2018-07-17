@@ -17,6 +17,7 @@ nav{
 nav ul{
     width: 1000px;
     width: inherit;
+    padding: 1em;
 }
 nav ul li{
     display: inline;
@@ -41,13 +42,18 @@ nav ul li:nth-child(5){
 /*END*/
 nav ul li a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 nav ul li:hover{
     background-color: red;
-    color: whitesmoke;
+}
+nav ul li a:hover{
+    color:whitesmoke;
 }
 header{
-    background-image: url("../img-project/header-img.jpg");
+    background-image: url("../images/header1200x.png");
 }
 .header h1 {
     margin: 0 auto;
@@ -64,7 +70,7 @@ header{
     color: #EA4335;
 }
 .header h1 span:nth-child(3), span:nth-child(5){
-    color: #66757F;
+    color: #ff9900;
 }
 main figure{
     display: grid;
@@ -100,7 +106,6 @@ li{
     .header h1{
         font-size: 3em;
     }
-
 .footer{
     font-size: 1.5em;
 }
