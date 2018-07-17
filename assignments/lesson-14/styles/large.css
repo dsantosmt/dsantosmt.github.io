@@ -1,0 +1,8 @@
+@media only screen and (min-width: 64em){
+header{
+    background-image: url("../images/header1500x.jpeg");
+}
+    .footer img{
+    width: 1500px;
+}
+}

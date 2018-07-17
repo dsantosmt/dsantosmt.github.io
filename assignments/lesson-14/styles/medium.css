@@ -1,0 +1,50 @@
+@media only screen and (min-width: 37.5em) {
+
+nav{
+   width: auto;
+}
+nav ul{
+    margin: 0 auto;
+    padding: .5em;
+    width: 900px;
+}
+nav ul li{
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    margin: 20px;
+    padding: .5em;
+    margin: 0 auto;
+    border: thin solid gray;
+    border-radius: 15px 4px;
+}
+/*--NAV COLOR--*/
+nav ul li:nth-child(1){
+    background-color: #FFFFFF;
+}
+nav ul li:nth-child(2){
+    background-color: #00a1f1;
+}
+nav ul li:nth-child(3){
+    background-color: #ff9900;
+}
+nav ul li:nth-child(4){
+    background-color: #66767f;
+}
+nav ul li:nth-child(5){
+    background-color: #ffcc00;
+}
+/*END*/
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li:hover{
+    background-color: red;
+}
+nav ul li a:hover{
+    color:whitesmoke;
+}
+}

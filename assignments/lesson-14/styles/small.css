@@ -9,51 +9,7 @@ body{
     background-color: lightgray
 }
 header, nav, main, footer{
-    width: 1200px;
-}
-nav{
-
-}
-nav ul{
-    width: 1000px;
-    width: inherit;
-    padding: 1em;
-}
-nav ul li{
-    display: inline;
-    padding: 1em;
-}
-/*--NAV COLOR--*/
-nav ul li:nth-child(1){
-    background-color: #FFFFFF;
-}
-nav ul li:nth-child(2){
-    background-color: #00a1f1;
-}
-nav ul li:nth-child(3){
-    background-color: #ff9900;
-}
-nav ul li:nth-child(4){
-    background-color: #66767f;
-}
-nav ul li:nth-child(5){
-    background-color: #ffcc00;
-}
-/*END*/
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-}
-nav ul li:hover{
-    background-color: red;
-}
-nav ul li a:hover{
-    color:whitesmoke;
-}
-header{
-    background-image: url("../images/header1200x.png");
+    width: 1500px;
 }
 .header h1 {
     margin: 0 auto;
@@ -72,13 +28,7 @@ header{
 .header h1 span:nth-child(3), span:nth-child(5){
     color: #ff9900;
 }
-main figure{
-    display: grid;
-    grid-row: auto;
-    grid-gap: 1em;
-    padding: 1em;
-    background-color: #ffffff;
-}
+
 .footer{
     font-family: Cardo;
     font-size: 2em;
@@ -88,15 +38,13 @@ main figure{
     margin: 0 auto;
     width: auto;
 }
-.footer img{
-    width: 1200px;
-}
+
 li{
     list-style: none;
 }
 @media only screen and (max-width:37.5em){
     
-    li{
+    nav{
         display: none;
     }
     .header{
