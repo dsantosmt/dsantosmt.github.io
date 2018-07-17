@@ -52,9 +52,18 @@ li{
         display: none;
     }
     .header{
-        background-image: url("../images/header300px.jpg")
+        width: 10em;
+        background: none;
     }
     .header h1{
         font-size: 3em;
     }
+
+.footer{
+    font-size: 1.5em;
+}
+.footer img{
+    margin: 0 auto;
+    width: 37.5em;
+}
 }
