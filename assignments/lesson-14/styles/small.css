@@ -51,7 +51,10 @@ li{
     li{
         display: none;
     }
-    header{
+    .header{
         background-image: url("../images/header300px.jpg")
+    }
+    .header h1{
+        font-size: 3em;
     }
 }
