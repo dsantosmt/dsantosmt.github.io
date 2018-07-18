@@ -82,23 +82,26 @@ nav ul li:hover{
         background-color: #00a1f1;
 
     }
+
     .sectionadv{
         padding: 1em;
         background-color: #ffffff;
         border-radius: 2px 2px;
     }
     .sectionadv h2{
-        width: 120px;
+        width: 150px;
+        text-decoration: underline;
     }
     .sectionadv img:nth-child(1){
         border-radius: 2px 2px;
         box-shadow: 2px 2px 2px;
     }
     .articleadv{
-        font-size: 16px;
+        font-size: 14px;
         border: thin solid #00a1f1;
         padding: .5em;
         border-radius: 2px 2px;
+        width: auto;
     }
 
 }

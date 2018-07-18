@@ -41,7 +41,7 @@ header{
     .mainadv{
         width: 1400px;
         padding: 1em;
-        background-color: #00a1f1;
+ 
     }
     .sectionadv{
         display: flex;
@@ -51,17 +51,23 @@ header{
         border-radius: 2px 2px;
     }
     .sectionadv h2{
-        width: 120px;
+        
     }
     .sectionadv img:nth-child(1){
         border-radius: 2px 2px;
         box-shadow: 2px 2px 2px;
-        margin: 10px;
     }
     .articleadv{
         font-size: 16px;
         border: thin solid #00a1f1;
-        padding: 1em;
+        padding: .5em;
         border-radius: 2px 2px;
+    }
+    /*--Repair Page--*/
+    .mainrep{
+        background-color: #ff9900;
+    }
+    .sectionrep{
+        background: #FFFFFF;
     }
 }
