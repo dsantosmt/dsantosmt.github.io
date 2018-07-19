@@ -48,7 +48,7 @@ li{
         display: none;
     }
     .header{
-        width: 100%;
+        min-height:  width: 100%;
         background: none;
         background-image: url(../images/header500x300.jpeg)
     }
@@ -58,7 +58,7 @@ li{
 .footer{
     font-size: 1.5em;
     background-image: url(../images/footer500x.jpeg);
-    width: 500px;
+    min-width:  auto;
     color: whitesmoke;
 }
     .footer p:nth-child(1){
