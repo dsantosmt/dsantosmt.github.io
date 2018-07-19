@@ -163,4 +163,22 @@ nav ul li:hover{
         width: 98%;
         border: thin solid #3fa956;
     }
+    div>form{
+        border: thin solid lightgray;
+        width: 50%;
+        margin: 0 auto;
+        background: #F9F9F9;
+        padding: 1em;
+    }
+    div>form>h3{
+        font-size: 2em;
+        padding: .2em;
+        color: #F96;
+    }
+    div>form>fieldset{
+        border: none;
+    }
+    div>form>fieldset>textarea{
+        width: 300px;
+        height: 200px;
 }
