@@ -118,6 +118,7 @@ li{
     }
     .maincont h1{
         padding: .2em;
+        background-color: aliceblue;
     }
     .sectioncont{
         padding: .5em;
@@ -139,7 +140,6 @@ li{
         border: none;
         padding: .5em;
         width: 90%;
-        border: 1px solid red;
         margin: 0 auto;
     }
     div>form>fieldset>textarea{
@@ -149,5 +149,9 @@ li{
     iframe{
         width: 97%;
         padding: 0.5em;
+    }
+    /*Event PAGE*/
+    .maineven{
+        background-color: #ffcc00;
     }
 }

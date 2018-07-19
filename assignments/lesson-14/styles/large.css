@@ -38,6 +38,7 @@ nav ul li{
         margin: 0 auto;
         padding: .5em;
         width: 60%;
+        background-color: aliceblue;
     }
     main figure{
         width: 98%;
@@ -123,4 +124,29 @@ nav ul li{
     .sectionrep{
         background: #FFFFFF;
     }
+    .sectioncont>p{
+        font-size: 2em;
+        margin: 0 auto;
+        padding: .3em;
+        width: 40%;
+    }
+    div>form{
+        border: thin solid gray;
+        width: 40%;
+        margin: 0 auto;
+        background: #F9F9F9;
+    }
+    div>form>h3{
+        font-size: 3em;
+        padding: .3em;
+        color: #F96;
+    }
+    div>form>fieldset{
+        border: none;
+        padding: .7em;
+    }
+    div>form>fieldset>textarea{
+        width: 500px;
+        height: 400px;
+}
 }
