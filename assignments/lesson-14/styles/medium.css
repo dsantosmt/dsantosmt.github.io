@@ -176,6 +176,7 @@ nav ul li:hover{
     }
     div>form>fieldset{
         border: none;
+        padding: .2em;
     }
     div>form>fieldset>textarea{
         width: 300px;
