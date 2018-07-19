@@ -25,14 +25,20 @@
             <li><a href=repair-services.html>Repair Services</a></li>
             <li><a href=sales.html>Sales</a></li>
             <li><a href=events.html>Events</a></li>
+            <li><a href=contact.html>Contact</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Home PAGE</h2>
+        <h2>Welcome! See What is waiting for You!</h2>
             <figure>
-                <img class="mySlides" src="images/action1000x500.jpeg" alt="Action Biking">
-                <img class="mySlides" src="images/kay1000x500.jpeg" alt="Action Trail">
-                <img class="mySlides" src="images/ana1000x500.jpeg" alt="Biking on the Ice">
+                <img class="mySlides"
+                     srcset="images/action200x120.jpeg 150w, images/action400x300.jpeg 400w, images/action1000x500.jpeg 600w" src="images/action1000x500.jpeg" alt="Action Biking">
+                <img class="mySlides"
+                     srcset="images/action400x300.jpeg 150w, images/action400x300.jpeg 400w, /images/kay1000x500.jpeg"
+                     src="images/kay1000x500.jpeg" alt="Action Trail">
+                <img class="mySlides"
+                     srcset="images/action400x300.jpeg 150w, images/action400x300.jpeg 400w, /images/ana1000x500.jpeg 600w"
+                     src="images/ana1000x500.jpeg" alt="Biking on the Ice">
                 <div class="buttons"><button onclick="plusDivs(-1)">❮ Prev</button>
                     <button onclick="plusDivs(1)">Next ❯</button></div>
             </figure>
@@ -51,7 +57,6 @@
     <footer class="footer">
     <p>The Mountain Spoke &copy;2018</p>
     <p>3950 Valley Commons Drive Bozeman, MT</p>
-    <img src="images/footer1200x.png">
     </footer>
 <script>
 var slideIndex = 1;

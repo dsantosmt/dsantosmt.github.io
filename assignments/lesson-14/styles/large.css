@@ -1,14 +1,61 @@
 @media only screen and (min-width: 64em){
-header{
-    background-image: url("../images/header1500x.jpeg");
+    .header{
+        width: auto;
+        margin: 0 auto;
+        background-image: url(../images/header1500x300.jpeg);
+    }
+    .header h1{
+        font-size: 5em;
+        width: 900px;
+    }
+nav{
+    width: 1400px;
+    margin: 0 auto;
+    padding: .2em;
 }
+nav ul{
+    width: auto;
+    padding: 0;
+}
+nav ul li{
+    width: 11em;
+    margin: 10px;
+    padding: 0.4em;
+    border-bottom: thin solid black;
+}
+    nav ul li:nth-child(3){
+        width: 250px;
+    }
+    nav ul li a{
+        font-size: 2em;
+    }
     main{
         width: 1400px;
         margin: 0 auto;
     }
-    .footer img{
-    width: 1500px;
-}
+    main > h2:nth-child(1){
+        font-size: 3em;
+        margin: 0 auto;
+        padding: .5em;
+        width: 60%;
+    }
+    main figure{
+        width: 98%;
+        margin: 0 auto;
+        padding: 1em;
+    }
+    .mySlides{
+        width: 98%;
+        padding: .2em;
+    }
+    .footer{
+        width: auto;
+        background-image: url(../images/footer1500x.png);
+    }
+    .footer {
+        color: black;
+        font-size: 1.5em;
+    }
     .event-link{
         height: auto;
         padding: 1em;
@@ -40,22 +87,23 @@ header{
     /*--Adventure Page---*/
     .mainadv{
         width: 1400px;
-        padding: 1em;
- 
+        padding: 2em;
     }
     .sectionadv{
         display: flex;
         flex-direction: row;
         padding: 1em;
         background-color: #ffffff;
-        border-radius: 2px 2px;
+        border-radius: 2px;
+        border: thin solid red;
     }
     .sectionadv h2{
-        
+        width: 
     }
-    .sectionadv img:nth-child(1){
+    .sectionadv>img{
         border-radius: 2px 2px;
         box-shadow: 2px 2px 2px;
+        margin: 10px;
     }
     .articleadv{
         font-size: 16px;

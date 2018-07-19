@@ -34,7 +34,6 @@ main{
     font-size: 2em;
     text-align: center;
     position: relative;
-    padding: 1em;
 }
 .footer p{
     margin: 0 auto;
@@ -45,24 +44,49 @@ li{
     list-style: none;
 }
 @media only screen and (max-width:37.5em){
-    
     nav{
         display: none;
     }
     .header{
-        width: 5em;
+        width: 500px;
         background: none;
+        border: 1px solid red;
+        background-image: url(../images/header500x300.jpeg)
     }
     .header h1{
-        font-size: 3em;
+        font-size: 2em;
     }
 .footer{
     font-size: 1.5em;
+    background-image: url(../images/footer500x.jpeg);
+    width: 500px;
+    color: whitesmoke;
 }
+    .footer p:nth-child(1){
+        color: black;
+        font-weight: bold;
+    }
 .footer img{
     margin: 0 auto;
     width: 37.5em;
 }
+    main{
+        border: 1px solid red;
+        width: 500px;
+    }
+    main > h2{
+        border: 1px solid red;
+        width: 85%;
+        padding: 1em;
+    }
+    main figure{
+        width: auto;
+        padding: 0;
+        border: 1px solid red;
+    }
+    .mySlides{
+        border: 1px solid red;
+    }
     .mainadv{
         width: auto;
         padding: .5em;
@@ -81,5 +105,23 @@ li{
     }
     .articleadv{
         padding: 1em;
+    }
+    /*--SALES PAGE--*/
+    .mainsal{
+        background-color: #66767f
+    }
+    /*--Contact PAGE--*/
+    .maincont{
+        background-color: #3fa956;
+    }
+    .maincont h1{
+        padding: .5em;
+    }
+    .sectioncont{
+        padding: .5em;
+    }
+    iframe{
+        width: 97%;
+        padding: 0.5em;
     }
 }

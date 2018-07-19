@@ -1,16 +1,36 @@
 @media only screen and (min-width: 37.5em) {
-
+    .header{
+        width: 800px;
+        margin: 0 auto;
+        padding: .5em;
+        background-image: url(../images/header800x300.jpeg)
+    }
+    .header h1{
+        font-size: 4em;
+        margin: 0 auto;
+        padding: .5em;
+        width: 90%
+    }
+    .footer{
+        width: 800px;
+        margin: 0 auto;
+        padding: .3em;
+        background-image: url(../images/footer1000x.jpeg);
+    }
 nav{
-   width: auto;
+    width: 800px;
+    margin: 0 auto;
+    padding: .5em;
 }
 nav ul{
     margin: 0 auto;
     padding: .5em;
-    width: 1200px;
+    width: auto;
+    width: 700px;
 }
 nav ul li{
     display: inline-block;
-    width: 200px;
+    width: 12%;
     text-align: center;
     margin: 30px;
     padding: .5em;
@@ -18,6 +38,9 @@ nav ul li{
     border: thin solid gray;
     border-radius: 25px 4px;
 }
+    nav ul li:nth-child(3){
+        width: 15%;
+    }
 /*--NAV COLOR--*/
 nav ul li:nth-child(1){
     background-color: #FFFFFF;
@@ -34,27 +57,38 @@ nav ul li:nth-child(4){
 nav ul li:nth-child(5){
     background-color: #ffcc00;
 }
+    nav ul li:nth-child(6){
+    background-color: #3fa956
+    }
 /*END*/
 nav ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
 }
 nav ul li:hover{
-    background-color: red;
     box-shadow: 4px 4px 4px gray;
     text-decoration: underline;
+    border: thin solid black;
 }
 /*nav ul li a:hover{
     color:whitesmoke;
 }*/
     main{
-        width: 900px;
-        box-shadow: 4px 4px gray;
+        width: 800px;
+       /* box-shadow: 4px 4px gray;*/
+        margin: 0 auto;
+        padding: .5em;
+    }
+    main > h2:nth-child(1){
+        font-size: 2em;
+        margin: 0 auto;
+        padding: .5em;
+        width: 70%;
     }
     main article{
-        width: 1000px;
+        width: 750px;
         margin: 0 auto;
     }
     main article p{
@@ -63,11 +97,14 @@ nav ul li:hover{
         text-align: left;
     }
     main figure{
-        width: 1000px;
+        width: 800px;
         margin: 0 auto;
+        padding: .2em;
     }
-    main figure img{
-        box-shadow: -.1px 2px 2px 2px black;
+    .mySlides{
+        box-shadow: -.1px 2px 2px 2px gray;
+        width: 98%;
+        padding: .2em;
     }
     .buttons{
         display: block;
@@ -77,10 +114,9 @@ nav ul li:hover{
     }
     /*--Adventure Page---*/
     .mainadv{
-        width: 900px;
         padding: .5em;
         background-color: #00a1f1;
-
+        margin: 0 auto;
     }
 
     .sectionadv{
@@ -89,7 +125,7 @@ nav ul li:hover{
         border-radius: 2px 2px;
     }
     .sectionadv h2{
-        width: 150px;
+        width: 200px;
         text-decoration: underline;
     }
     .sectionadv img:nth-child(1){
@@ -103,5 +139,23 @@ nav ul li:hover{
         border-radius: 2px 2px;
         width: auto;
     }
+    /*Sales PAGE*/
+    .mainsal{
+        background-color: #66767f;
+        padding: 1em;
+    }
 
+    /*--Contact PAGE--*/
+    .maincont{
+        background-color: #3fa956;
+    }
+        .sectioncont{
+        background-color: #ffffff;
+        padding: 1em;
+        margin: 10px;
+    }
+    iframe{
+        margin: 0 auto;
+        border: 1px solid red;
+    }
 }
