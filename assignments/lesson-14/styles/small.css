@@ -97,7 +97,11 @@ li{
         padding: .5em;
     }
     .sectionadv{
-        background: #FFFFFF;  
+        background: #FFFFFF;
+        min-width: 98%;
+    }
+    .articleadv{
+        
     }
     .sectionadv img{
         display: block;
