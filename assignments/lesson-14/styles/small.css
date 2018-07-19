@@ -50,7 +50,7 @@ li{
         display: none;
     }
     .header{
-        width: 600px;
+        width: 100%;
         background: none;
         background-image: url(../images/header500x300.jpeg);
         margin: 0 auto;
@@ -61,7 +61,7 @@ li{
 .footer{
     font-size: 1.5em;
     background-image: url(../images/footer500x.jpeg);
-    width: 600px;
+    width: 100%;
     color: whitesmoke;
 }
     .footer p:nth-child(1){
@@ -70,10 +70,10 @@ li{
     }
 .footer img{
     margin: 0 auto;
-    width: 600px;
+    width: 100%;
 }
     main{
-        width: 600px;
+        width: 100%;
         padding: 0;
         margin: 0 auto;
     }
@@ -82,14 +82,14 @@ li{
         padding: 1em;
     }
     main figure{
-        min-width: auto;
+        width: 100%;
         padding: 0;
     }
     .mySlides{
         border: 1px solid red;
     }
     .mainadv{
-        width: 600px;
+        width: 100%;
         padding: .5em;
         background-color: #00a1f1;
     }
