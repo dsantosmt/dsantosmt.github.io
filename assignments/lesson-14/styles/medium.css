@@ -164,11 +164,10 @@ nav ul li:hover{
         border: thin solid #3fa956;
     }
     div>form{
-        border: thin solid lightgray;
+        border: thin solid gray;
         width: 50%;
         margin: 0 auto;
         background: #F9F9F9;
-        padding: 1em;
     }
     div>form>h3{
         font-size: 2em;

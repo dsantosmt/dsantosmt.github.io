@@ -114,15 +114,37 @@ li{
     /*--Contact PAGE--*/
     .maincont{
         background-color: #3fa956;
+        width: 97%;
     }
     .maincont h1{
-        padding: .5em;
+        padding: .2em;
     }
     .sectioncont{
         padding: .5em;
         background-color: #ffffff;
         margin: 10px;
-        width: 100%;
+    }
+        div>form{
+        border: thin solid lightgray;;
+        margin: 0 auto;
+        background: #F9F9F9;
+        padding: 1em;
+    }
+    div>form>h3{
+        font-size: 2em;
+        padding: .1em;
+        color: #F96;
+    }
+    div>form>fieldset{
+        border: none;
+        padding: .5em;
+        width: 90%;
+        border: 1px solid red;
+        margin: 0 auto;
+    }
+    div>form>fieldset>textarea{
+        width: 200px;
+        height: 200px;
     }
     iframe{
         width: 97%;
