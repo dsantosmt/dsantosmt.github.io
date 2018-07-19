@@ -51,8 +51,7 @@ nav ul li{
     .footer{
         width: auto;
         background-image: url(../images/footer1500x.png);
-    }
-    .footer {
+        height: 100px;
         color: black;
         font-size: 1.5em;
     }
@@ -89,16 +88,21 @@ nav ul li{
         width: 1400px;
         padding: 2em;
     }
+    main>h1{
+        font-size: 4em;
+        background-color: aliceblue;
+        padding: .2em;
+    }
     .sectionadv{
         display: flex;
         flex-direction: row;
         padding: 1em;
         background-color: #ffffff;
-        border-radius: 2px;
-        border: thin solid red;
+        border-radius: 10px;
+        margin: 10px;
     }
     .sectionadv h2{
-        width: 
+        font-size: 2em; 
     }
     .sectionadv>img{
         border-radius: 2px 2px;
@@ -110,6 +114,7 @@ nav ul li{
         border: thin solid #00a1f1;
         padding: .5em;
         border-radius: 2px 2px;
+        width: 50%;
     }
     /*--Repair Page--*/
     .mainrep{

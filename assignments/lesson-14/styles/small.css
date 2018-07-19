@@ -50,7 +50,6 @@ li{
     .header{
         width: 500px;
         background: none;
-        border: 1px solid red;
         background-image: url(../images/header500x300.jpeg)
     }
     .header h1{
@@ -71,18 +70,16 @@ li{
     width: 37.5em;
 }
     main{
-        border: 1px solid red;
         width: 500px;
+        padding: 0;
     }
     main > h2{
-        border: 1px solid red;
         width: 85%;
         padding: 1em;
     }
     main figure{
         width: auto;
         padding: 0;
-        border: 1px solid red;
     }
     .mySlides{
         border: 1px solid red;
@@ -119,6 +116,8 @@ li{
     }
     .sectioncont{
         padding: .5em;
+        background-color: #ffffff;
+        margin: 10px;
     }
     iframe{
         width: 97%;
