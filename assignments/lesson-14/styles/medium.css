@@ -85,24 +85,46 @@ nav ul li:hover{
         padding: .5em;
         width: 70%;
     }
-    main article{
+    main>article{
         width: 750px;
         margin: 0 auto;
+        border: thin solid lightgray;
+        padding: .5em;
+        border-radius: 5px;
     }
-    main article p{
+    main>article>p{
         font-family: cargo;
         font-size: 20px;
         text-align: left;
     }
-    main figure{
+    main>figure{
         width: 800px;
         margin: 0 auto;
         padding: .2em;
     }
+    .event-link{
+        width: 50%;
+        margin: 0 auto;
+        padding: .2em;
+    }
+    .event-link>li{
+        background-color: #00a1f1;
+        color: white;
+        padding: .3em;
+        margin: 0 0 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .event-link>li>a{
+        color: #ffffff;
+        padding: .1em;
+        text-decoration: none;
+        font-size: 1.7em;
+    }
     .mySlides{
         box-shadow: -.1px 2px 2px 2px gray;
         width: 98%;
-        padding: .2em;
+        padding: 0;
     }
     .buttons{
         display: block;

@@ -50,13 +50,18 @@ li{
         display: none;
     }
     .header{
-        width: 100%;
-        background: none;
-        background-image: url(../images/header500x300.jpeg);
+        width: 600px;
+        background-image: url(../images/header600x300.jpeg);
         margin: 0 auto;
+        padding: .1em;
     }
     .header h1{
-        font-size: 2em;
+        font-size: 4em;
+        widows: 600px;
+        height: 300px;
+    }
+    .header>h1>img{
+        display: none;
     }
 .footer{
     font-size: 1.5em;
@@ -81,12 +86,52 @@ li{
         width: 85%;
         padding: 1em;
     }
-    main figure{
-        width: 100%;
+    main>figure{
         padding: 0;
     }
+        .event-link{
+        margin: 0 auto;
+        padding: .2em;
+    }
+    main>article{
+        margin: 10px;
+        border: thin solid lightgray;
+        padding: 1em;
+        border-radius: 5px;
+    }
+    main>article>p{
+        font-family: cargo;
+        font-size: 20px;
+        text-align: left;
+    }
+    .event-link>li{
+        background-color: #00a1f1;
+        color: white;
+        padding: .3em;
+        margin: 0 0 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .event-link>li>a{
+        color: #ffffff;
+        padding: .1em;
+        text-decoration: none;
+        font-size: 2em;
+    }
+    .event-link>img{
+        display: block;
+        margin: 10px auto 10px auto;
+        
+    }
     .mySlides{
-        border: 1px solid red;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .buttons{
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+        padding: .5em;
     }
     .mainadv{
         width: 100%;
