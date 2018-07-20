@@ -5,7 +5,8 @@ font-family: Gaegu;
 body{
     max-width: 1500px;
     margin: 0 auto;
-    background-color: lightgray
+    background-color: lightgray;
+    box-shadow: 1px -.5px 3px 3px gray;
 }
 header, footer{
     width: 1500px;
@@ -50,7 +51,8 @@ li{
         display: none;
     }
     .header{
-        width: 500px;
+        max-width: 500px;
+        min-width: 99%;
         background-image: url(../images/header600x300.jpeg);
         margin: 0 auto;
         padding: .1em;
@@ -105,6 +107,11 @@ li{
         font-family: cargo;
         font-size: 20px;
         text-align: left;
+    }
+    main>section{
+        background-color: #ffffff;
+        margin: 10px;
+        border-radius: 5px;
     }
     .event-link>li{
         background-color: #00a1f1;
@@ -207,5 +214,31 @@ li{
         background-color: #ffcc00;
         width: 100%;
         min-width: 500px;
+    }
+    .sectioneven{
+        background-clip: #ffff;
+        padding: 1em;
+        margin: 10px;
+    }
+   .sectioneven>h2{
+        width: 400px;
+        text-align: center;
+        border: 1px solid red;
+        padding: .2em;
+        margin: auto;
+        border-radius: 5px;
+        background-color: #EA4335;
+        color: whitesmoke;
+        font-size: 2em;
+    }
+    .mainrep{
+        background-color: #ff9900;
+        width: 100%;
+        min-width: 500px
+    }
+    .sectionrep{
+        background-color: #FFFFFF;
+        width: 98%;
+        margin: 0 auto;
     }
 }

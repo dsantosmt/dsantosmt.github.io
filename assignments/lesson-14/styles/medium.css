@@ -73,7 +73,6 @@ nav ul li:hover{
     text-decoration: underline;
     border: thin solid black;
 }
-
     main{
         width: 800px;
         margin: 0 auto;
@@ -101,6 +100,11 @@ nav ul li:hover{
         width: 800px;
         margin: 0 auto;
         padding: .2em;
+    }
+    main>section{
+        background-color: #ffffff;
+        margin: 10px;
+        border-radius: 5px;
     }
     .event-link{
         width: 50%;
@@ -138,7 +142,6 @@ nav ul li:hover{
         background-color: #00a1f1;
         margin: 0 auto;
     }
-
     .sectionadv{
         padding: 1em;
         background-color: #ffffff;
@@ -170,12 +173,8 @@ nav ul li:hover{
         background-color: #3fa956;
     }
     .sectioncont{
-        background-color: #ffffff;
         padding: 1em;
         margin: 10px;
-    }
-    .sectioncont{
-        margin: 20px;
         border-radius: 5px;
     }
     iframe{
@@ -204,5 +203,46 @@ nav ul li:hover{
         /*Event PAGE*/
     .maineven{
         background-color: #ffcc00;
+    }
+    .mainrep{
+        background-color: #ff9900;
+    }
+    .sectionrep{
+        background-color: #FFFFFF;
+        border-radius: 5px;
+    }
+    .articleeven{
+        padding: .2em;
+        margin: 0 auto;
+        margin: 10px;
+    }
+    .articleeven>p{
+        margin: 0 auto;
+        padding: 2em;
+        width: 50%;
+        font-size: 2em;
+    }
+    .regform{
+        padding: .2em;
+    }
+    .articleeven>li{
+        width: 50%;
+        margin: 0 auto;
+        padding: .2em;
+        font-size: 2em;
+    }
+    .sectioneven{
+        padding: 1em;
+    }
+    .sectioneven>h2{
+        width: 400px;
+        text-align: center;
+        border: 1px solid red;
+        padding: .2em;
+        margin: auto;
+        border-radius: 5px;
+        background-color: #EA4335;
+        color: whitesmoke;
+        font-size: 2em;
     }
 }
