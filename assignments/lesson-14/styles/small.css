@@ -67,6 +67,7 @@ li{
     font-size: 1.5em;
     background-image: url(../images/footer500x.jpeg);
     width: 100%;
+    min-width: 500px;
     color: whitesmoke;
 }
     .footer p:nth-child(1){
@@ -79,6 +80,7 @@ li{
 }
     main{
         width: 100%;
+        min-width: 500px;
         padding: 0;
         margin: 0 auto;
     }
@@ -135,7 +137,7 @@ li{
     }
     .mainadv{
         width: 100%;
-        padding: .5em;
+        padding: .1em;
         background-color: #00a1f1;
     }
     .mainadv h2{
@@ -158,13 +160,13 @@ li{
     }
     /*--SALES PAGE--*/
     .mainsal{
-        background-color: #66767f
+        background-color: #66767f;
+        width: 97%;
     }
     /*--Contact PAGE--*/
     .maincont{
         background-color: #3fa956;
         width: 97%;
-        min-width: 500px;
     }
     .maincont h1{
         padding: .2em;
@@ -203,5 +205,7 @@ li{
     /*Event PAGE*/
     .maineven{
         background-color: #ffcc00;
+        width: 100%;
+        min-width: 500px;
     }
 }
