@@ -50,17 +50,15 @@ li{
         display: none;
     }
     .header{
-        width: 600px;
-        background-image: url(../images/header500x300.jpeg);
+        width: 500px;
+        background-image: url(../images/header600x300.jpeg);
         margin: 0 auto;
         padding: .1em;
-        border: 1px solid red;
     }
     .header>h1{
+        width: 500px;
         font-size: 3em;
-        widows: 600px;
-        border: 1px solid red;
-        padding: .5em .5em 2em;
+        padding: .5em 0 2em .5em;
     }
     .header>h1>img{
         display: none;
@@ -166,6 +164,7 @@ li{
     .maincont{
         background-color: #3fa956;
         width: 97%;
+        min-width: 500px;
     }
     .maincont h1{
         padding: .2em;
