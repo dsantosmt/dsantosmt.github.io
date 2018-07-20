@@ -51,14 +51,16 @@ li{
     }
     .header{
         width: 600px;
-        background-image: url(../images/header600x300.jpeg);
+        background-image: url(../images/header500x300.jpeg);
         margin: 0 auto;
         padding: .1em;
+        border: 1px solid red;
     }
-    .header h1{
-        font-size: 4em;
+    .header>h1{
+        font-size: 3em;
         widows: 600px;
-        height: 300px;
+        border: 1px solid red;
+        padding: .5em .5em 2em;
     }
     .header>h1>img{
         display: none;
