@@ -1,0 +1,37 @@
+{
+    "services" : [
+        {
+            "name" : "BASIC TUNE-UP",
+            "price" : "$69.99",
+            "desc" : "The perfect package for a newer bike. It prepares your bike for safe operation and includes adjustments to all basic systems, including:",
+            "repair" : [
+                "Shifting system",
+                "Braking system",
+                "Wheel system (minor truing)",
+                "Basic cleaning"
+            ]
+        },
+        {
+            "name" : "DELUXE TUNE-UP",
+            "price" : "$109.99",
+            "desc" : "The package designed for the casual cyclist who wants problem-free riding. With this package, we will adjust all the major systems, including:",
+            "repair" : [
+                "Shifting system",
+                "Braking system",
+                "Wheel system (minor truing)",
+                "Basic cleaning",
+                "Eco friendly drivetrain cleaning",
+                "Frame cleaning and polishing"
+            ]
+        },
+        {
+            "name" : "COMPLETE OVERHAUL",
+            "price" : "$$199.99",
+            "desc" : "The ultimate annual service package. This package includes a complete disassembly, cleaning, and rebuild of all systems on the bicycle. Includes:",
+            "repair" : [
+                "Deluxe Tune-Up package",
+                "Grease and repack all major bearing systems"
+            ]
+        }
+    ]
+}
