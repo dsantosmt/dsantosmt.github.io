@@ -30,23 +30,23 @@ nav ul li{
         font-size: 2em;
     }
     main{
+        display: block;
         width: 1400px;
         margin: 0 auto;
     }
     main > h2:nth-child(1){
-        font-size: 3em;
-        margin: 0 auto;
-        padding: .5em;
-        width: 60%;
-    }
-    main figure{
-        width: 98%;
-        margin: 0 auto;
+        font-size: 2em;
         padding: 1em;
+        width: 40%;
     }
-    .mySlides{
-        width: 98%;
-        padding: .2em;
+    main>figure{
+        display: flex;
+        border: thin solid black;
+        margin: 0 auto 1em;
+        width: 1200px;
+    }
+    main>figure>img{
+        width: 100%;
     }
     .footer{
         width: auto;
@@ -55,9 +55,13 @@ nav ul li{
         color: black;
         font-size: 1.5em;
     }
+       .footer>p:nth-child(2){
+        color: black;
+        font-size: 1.5em;
+    }
     .event-link{
-        height: auto;
         padding: 1em;
+        width: 95%
     }
 
     .event-link img{
@@ -68,9 +72,9 @@ nav ul li{
     .event-link li{
         background-color: #00a1f1;
         padding: .5em;
-        width: 500px;
+        width: auto;
         border: thin solid gray;
-        border-radius: 5px;
+        border-radius: 2px;
         text-align: center;
         margin: 0 auto;
     }

@@ -89,14 +89,23 @@ li{
     main > h2{
         width: 85%;
         padding: 1em;
+        margin: 0 auto;
     }
     main>figure{
+        width: 90%;
+        padding: 1em;
+        margin: 0 auto;
+    }
+    main>figure>img{
+        width: 100%;
+    }
+    /*main>figure{
         padding: 0;
     }
         .event-link{
         margin: 0 auto;
         padding: .2em;
-    }
+    }*/
     main>article{
         margin: 10px;
         border: thin solid lightgray;
@@ -132,7 +141,7 @@ li{
         margin: 10px auto 10px auto;
         
     }
-    .mySlides{
+    /*.mySlides{
         width: 100%;
         border-radius: 5px;
     }
@@ -141,7 +150,7 @@ li{
         width: 130px;
         margin: 0 auto;
         padding: .5em;
-    }
+    }*/
     .mainadv{
         width: 100%;
         padding: .1em;

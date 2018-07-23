@@ -15,8 +15,13 @@
         width: 800px;
         margin: 0 auto;
         padding: .3em;
-        border: 1px solid red;
         background-image: url(../images/footer1000x.jpeg);
+    }
+    .footer>p:nth-child(2){
+        color: whitesmoke;
+    }
+    .active{
+        box-shadow: 5px 5px 5px  black;
     }
 nav{
     width: 800px;
@@ -75,20 +80,29 @@ nav ul li:hover{
 }
     main{
         width: 800px;
+        min-height: 800px;
         margin: 0 auto;
         padding: .5em;
     }
     main > h2:nth-child(1){
-        font-size: 2em;
+        font-size: 1.5em;
         margin: 0 auto;
         padding: .5em;
-        width: 70%;
+        width: 60%;
+    }
+    main>figure{
+        width: 600px;
+        max-height: 600px;
+        margin: 0 auto;
+    }
+    main>figure>img{
+        width: 100%;
     }
     main>article{
-        width: 750px;
+        width: 800px;
         margin: 0 auto;
         border: thin solid lightgray;
-        padding: .5em;
+        padding: .3em;
         border-radius: 5px;
     }
     main>article>p{
@@ -96,11 +110,7 @@ nav ul li:hover{
         font-size: 20px;
         text-align: left;
     }
-    main>figure{
-        width: 800px;
-        margin: 0 auto;
-        padding: .2em;
-    }
+
     main>section{
         background-color: #ffffff;
         margin: 10px;
@@ -124,17 +134,6 @@ nav ul li:hover{
         padding: .1em;
         text-decoration: none;
         font-size: 1.7em;
-    }
-    .mySlides{
-        box-shadow: -.1px 2px 2px 2px gray;
-        width: 98%;
-        padding: 0;
-    }
-    .buttons{
-        display: block;
-        width: 130px;
-        margin: 0 auto;
-        padding: .5em;
     }
     /*--Adventure Page---*/
     .mainadv{
