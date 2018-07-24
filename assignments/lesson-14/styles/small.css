@@ -99,13 +99,7 @@ li{
     main>figure>img{
         width: 100%;
     }
-    /*main>figure{
-        padding: 0;
-    }
-        .event-link{
-        margin: 0 auto;
-        padding: .2em;
-    }*/
+
     main>article{
         margin: 10px;
         border: thin solid lightgray;
@@ -121,6 +115,33 @@ li{
         background-color: #ffffff;
         margin: 10px;
         border-radius: 5px;
+    }
+    .sectionrep{
+        width: auto;
+    }
+    .sectionrep>article{
+        display: block;
+        border: thin solid gray;
+        border-radius: 5px;
+        margin: 10px;
+        padding: .2em;
+    }
+    .sectionrep>article>h2{
+        border: 1px solid red;
+        padding: .2em;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        border: thin solid black;
+        border-radius: 5px;
+        background-color: gray;
+    }
+    .sectionrep>article>p{
+        padding: .5em;
+        margin: 5px
+    }
+    .sectionrep>article>p:nth-child(0){
+        font-weight: bold;
     }
     .event-link>li{
         background-color: #00a1f1;

@@ -215,7 +215,7 @@ nav ul li:hover{
     .sectionrep>article{
         border: thin solid gray;
         width: 300px;
-        padding: 1em;
+        padding: 2em;
         border-radius: 5px;
         margin: 0 auto;
     }
@@ -231,10 +231,6 @@ nav ul li:hover{
         border: thin solid gray;
         font-size: 1em;
         padding: .1em;
-    }
-    .sectionrep>article>p:first-child{
-        border: 1px solid red;
-        font-size: 2em;
     }
     .articleeven{
         padding: .2em;
