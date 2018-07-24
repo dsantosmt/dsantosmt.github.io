@@ -232,9 +232,9 @@ nav ul li:hover{
         font-size: 1em;
         padding: .1em;
     }
-    .sectionrep>article>p:nth-child(1){
+    .sectionrep>article>p:first-child{
         border: 1px solid red;
-        font-size: 1em;
+        font-size: 2em;
     }
     .articleeven{
         padding: .2em;
