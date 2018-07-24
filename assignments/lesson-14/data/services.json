@@ -26,7 +26,7 @@
         },
         {
             "name" : "COMPLETE OVERHAUL",
-            "price" : "$$199.99",
+            "price" : "$199.99",
             "desc" : "The ultimate annual service package. This package includes a complete disassembly, cleaning, and rebuild of all systems on the bicycle. Includes:",
             "repair" : [
                 "Deluxe Tune-Up package",
