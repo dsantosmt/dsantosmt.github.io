@@ -105,12 +105,19 @@ nav ul li:hover{
         padding: .3em;
         border-radius: 5px;
     }
+    main>article>figure>img{
+        width: 100%;
+    }
+    main>article>h2{
+        background-color: #edeaf2;
+        font-size: 4em;
+        text-align: center;
+    }
     main>article>p{
         font-family: cargo;
         font-size: 20px;
         text-align: left;
     }
-
     main>section{
         background-color: #ffffff;
         margin: 10px;
@@ -146,6 +153,10 @@ nav ul li:hover{
         background-color: #ffffff;
         border-radius: 2px 2px;
     }
+    .sectionadv span{
+        font-weight: bold;
+        border: 1px solid red;
+    }
     .sectionadv h2{
         width: 200px;
         text-decoration: underline;
@@ -155,7 +166,7 @@ nav ul li:hover{
         box-shadow: 2px 2px 2px;
     }
     .articleadv{
-        font-size: 14px;
+        font-size: 2em;
         border: thin solid #00a1f1;
         padding: .5em;
         border-radius: 2px 2px;
@@ -208,7 +219,7 @@ nav ul li:hover{
     }
     .sectionrep{
         display: flex;
-        background-color: #FFFFFF;
+        background-color: #ff9900;
         border-radius: 5px;
         padding: 1em;
     }
@@ -218,6 +229,7 @@ nav ul li:hover{
         padding: 2em;
         border-radius: 5px;
         margin: 0 auto;
+        background-color: #FFF;
     }
     .sectionrep>article>h2{
         border: thin solid black;
@@ -231,16 +243,19 @@ nav ul li:hover{
         border: thin solid gray;
         font-size: 1em;
         padding: .1em;
+        font-weight: bold;
     }
     .articleeven{
         padding: .2em;
         margin: 0 auto;
         margin: 10px;
+        background-color: whitesmoke;
+        opacity: .9
     }
     .articleeven>p{
         margin: 0 auto;
-        padding: 2em;
-        width: 50%;
+        padding: .2em;
+        width: 98%;
         font-size: 2em;
     }
     .regform{
@@ -254,6 +269,9 @@ nav ul li:hover{
     }
     .sectioneven{
         padding: 1em;
+        background-image: url(../images/background-event.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .sectioneven>h2{
         width: 400px;

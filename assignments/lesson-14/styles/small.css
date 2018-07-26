@@ -111,13 +111,16 @@ li{
         font-size: 20px;
         text-align: left;
     }
+    main>article>figure>img{
+        display: none;
+    }
     main>section{
-        background-color: #ffffff;
         margin: 10px;
         border-radius: 5px;
     }
     .sectionrep{
         width: auto;
+        border: thin solid gray;
     }
     .sectionrep>article{
         display: block;
@@ -138,7 +141,8 @@ li{
     }
     .sectionrep>article>p{
         padding: .5em;
-        margin: 5px
+        margin: 5px;
+        font-weight: bold;
     }
     .sectionrep>article>p:nth-child(0){
         font-weight: bold;
@@ -184,8 +188,8 @@ li{
         background: #FFFFFF;
         min-width: 98%;
     }
-    .articleadv{
-        
+    .sectionadv span{
+        font-weight: bold;
     }
     .sectionadv img{
         display: block;
@@ -246,7 +250,7 @@ li{
         min-width: 500px;
     }
     .sectioneven{
-        background-clip: #ffff;
+        background-color: #ffff;
         padding: 1em;
         margin: 10px;
     }

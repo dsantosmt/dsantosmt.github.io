@@ -39,6 +39,13 @@ nav ul li{
         padding: 1em;
         width: 40%;
     }
+    main>article{
+        width: 1200px;
+    }
+    main>article>figure>img{
+        padding: 0;
+        margin: 0 auto;
+    }
     main>figure{
         display: flex;
         border: thin solid black;
@@ -125,7 +132,10 @@ nav ul li{
         background-color: #ff9900;
     }
     .sectionrep{
-        background: #FFFFFF;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+        border-radius: 0;
     }
     .sectioncont>p{
         font-size: 2em;
