@@ -203,6 +203,7 @@ li{
     .mainsal{
         background-color: #66767f;
         width: 97%;
+        padding: .5em;
     }
     /*--Contact PAGE--*/
     .maincont{
@@ -274,5 +275,61 @@ li{
         background-color: #FFFFFF;
         width: 98%;
         margin: 0 auto;
+    }
+    .accordion{
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 25px;
+        width: 100%;
+        text-align: left;
+        border: thin solid gray;
+        outline: none;
+        transition: 0.4s;
+        box-shadow: none;
+        font-size: 1.2em;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .accordion:hover{
+        background: #ccc;
+ }
+    .itemview {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+}
+    .itemview>article{
+        margin: 10px;
+    }
+    .itemview>article>div{
+        padding: 2em;
+    }
+    .itemview>article>li{
+        padding: .2em;
+        font-family: Cardo;
+        margin: 10px;
+    }
+    .itemview>article>div>li>span{
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .itemview>article>h2{
+        text-align: center;
+        font-size: 2em;
+    }
+    .itemview>article>div>li:nth-child(1){
+        font-size: 2em;
+        margin-left: -10px;
+    }
+    .itemview>article>figure{
+        width: 400px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .itemview>article>figure>img{
+        width: 100%;
     }
 }

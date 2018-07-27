@@ -252,10 +252,7 @@ nav ul li:hover{
         background-color: whitesmoke;
         opacity: .9;
     }
-    .sectioneven:nth-child(3){
-        border: 1px solid red;
-    }
-    .articleeven>p{
+articleeven>p{
         margin: 0 auto;
         padding: .2em;
         width: 98%;
@@ -286,5 +283,62 @@ nav ul li:hover{
         background-color: #EA4335;
         color: whitesmoke;
         font-size: 2em;
+    }
+    .accordion{
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 25px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        transition: 0.4s;
+        box-shadow: none;
+        font-size: 2em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .accordion:hover{
+        background: #ccc;
+    }
+    .itemview {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+}
+    .itemview>article{
+        margin: 10px;
+    }
+    .itemview>article>div{
+        padding: 2em;
+    }
+    .itemview>article>li{
+        padding: .2em;
+        font-family: Cardo;
+        margin: 10px;
+    }
+    .itemview>article>div>li>span{
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .itemview>article>h2{
+        text-align: center;
+        font-size: 2em;
+    }
+    .itemview>article>div>li:nth-child(1){
+        font-size: 2em;
+        margin-left: -10px;
+    }
+    .itemview>article>figure{
+        width: 500px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .itemview>article>figure>img{
+        width: 100%;
     }
 }
