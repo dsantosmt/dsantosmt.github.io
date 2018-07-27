@@ -177,4 +177,8 @@ nav ul li{
          color: red;
          display: block;
 }
+    .articleeven p{
+        font-size: 1em;
+        border: 1px solid red;
+    }
 }

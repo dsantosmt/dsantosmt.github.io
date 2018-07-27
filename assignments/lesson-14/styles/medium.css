@@ -250,12 +250,13 @@ nav ul li:hover{
         margin: 10px;
         background-color: whitesmoke;
         opacity: .9;
+        font-size: 1.5em;
     }
 articleeven>p{
         margin: 0 auto;
         padding: .2em;
         width: 98%;
-        font-size: 2em;
+        font-size: 3em;
     }
     .regform{
         padding: .2em;
@@ -264,7 +265,6 @@ articleeven>p{
         width: 50%;
         margin: 0 auto;
         padding: .2em;
-        font-size: 2em;
     }
     .sectioneven{
         padding: 1em;
