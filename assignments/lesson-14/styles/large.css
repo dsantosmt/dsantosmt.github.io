@@ -173,4 +173,8 @@ nav ul li{
     .itemview>article>figure>img{
         width: 100%;
     }
+    .footer>a{
+         color: red;
+         display: block;
+}
 }

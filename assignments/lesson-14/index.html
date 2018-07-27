@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="It present a change for you to know Bozeman area b riding and mountain bike">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gaegu"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cardo"/>
     <link rel="stylesheet" href="styles/normalize.css">
@@ -16,10 +16,12 @@
     <header class="header">
         <h1><span>The </span><span>Mount</span><span>ain</span><span> Spo</span><span>ke</span>
             <img src="images/150x.png" alt="Bike Man">
+            
         </h1>
+        
     </header>
     <nav>
-        <ul>
+        <ul class="navigation">
             <li class="active"><a href=index.html>Home</a></li>
             <li><a href=adventure.html>Adventure</a></li>
             <li><a href=repair-services.html>Repair Services</a></li>
@@ -29,6 +31,7 @@
         </ul>
     </nav>
     <main>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
         <h2>Welcome! See What is waiting for You!</h2>
             <figure>
                 <img srcset="images/main-page300x150.jpeg 320w,images/main-page600x300.jpeg 600w, images/main-page1200x600.jpeg 1200w"
@@ -52,7 +55,9 @@
     <footer class="footer">
     <p>The Mountain Spoke &copy;2018</p>
     <p>3950 Valley Commons Drive Bozeman, MT</p>
+    <a href="source.html">Sources</a>
     </footer>
+    <script src="scripts/menu.js"></script>
 <script>
 </script>
 </body>
